@@ -1,0 +1,292 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+/*#################################-- header _ nav --#######################################*/
+header .container-fluid {
+    padding: 10px;
+}
+
+header nav {
+    background-color: rgba(55, 64, 85, 0.9);
+}
+
+    header nav .nav-link {
+        color: white;
+        font-size: 18px;
+    }
+
+        header nav .nav-link:hover {
+            color: #ffc107;
+            border-bottom-style: solid;
+            transition-delay: 0.1s;
+        }
+
+        header nav .nav-link:focus {
+            color: #ffc107;
+        }
+
+    header nav .logo {
+        color: #ffc107;
+        font-family: 'Lobster', cursive;
+        font-size: 27px;
+    }
+
+    header nav .navbar-toggler-icon {
+        background-image: url( "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,153,0,0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+
+    header nav .btn-outline-warning {
+        transition: 0.5s;
+        border-radius: 50px;
+    }
+
+    header nav .form-control {
+        transition: 0.5s;
+        border-radius: 50px;
+    }
+
+        header nav .form-control:focus {
+            border-color: #ffc107;
+            border-width: 2px;
+        }
+
+/*#################################-- UpPage --#######################################*/
+.upPage {
+    position: fixed;
+    bottom: 30px;
+    right: -50px;
+    background-color: #ffc107;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 15px;
+    border-radius: 50px;
+    font-family: Arial,Tahoma;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+    .upPage.show {
+        right: 30px;
+    }
+/*#################################-- main carousel --#######################################*/
+main .carousel-inner {
+    /* height:88vh;*/
+}
+
+main .carousel-item img {
+    height: auto;
+    width: 100%;
+}
+
+main .carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    align-content: center;
+}
+
+    main .carousel-caption h1 {
+        color: white;
+        letter-spacing: 5px;
+    }
+
+    main .carousel-caption h3 {
+        color: white;
+        letter-spacing: 2px;
+    }
+
+    main .carousel-caption a {
+        color: white;
+        letter-spacing: 5px;
+        padding: 15px;
+        border-radius: 50px;
+    }
+
+@media screen and (max-width : 560px) {
+    .TEXT h1 {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .TEXT h3 {
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    .TEXT a {
+        font-size: 13px;
+        font-weight: bold;
+        padding: 0;
+    }
+}
+/*#################################-- main Jordan --#######################################*/
+#Jordan {
+    background-color: white;
+    padding: 30px;
+}
+
+    #Jordan img {
+        border-radius: 50px;
+    }
+
+    #Jordan legend {
+        letter-spacing: 4px;
+        font-size: 35px;
+        color: #ffc107;
+    }
+
+    #Jordan p {
+        letter-spacing: 1px;
+        font-size: 18px;
+        text-align: justify;
+    }
+/*#################################-- main counter --#######################################*/
+#counts {
+    background-color: #f7f8fa;
+    padding: 75px;
+}
+
+    #counts .counter {
+        font-size: 30px;
+    }
+
+    #counts p {
+        font-size: 25px;
+        font-weight: bold;
+        color: #ffc107;
+        letter-spacing: 3px;
+    }
+/*#################################-- main TouristicPlaces --#######################################*/
+#TouristicPlaces .carousel-inner {
+    padding: 100px 11%;
+}
+
+@media screen and (min-width : 800px) {
+    #TouristicPlaces .cards-wrapper {
+        display: flex;
+    }
+
+        #TouristicPlaces .cards-wrapper .card {
+            margin: 0 20px;
+            width: calc(100%/3);
+        }
+}
+
+#TouristicPlaces .cards-wrapper .card {
+    border-color: #ffc107;
+}
+
+    #TouristicPlaces .cards-wrapper .card .directione {
+        border-radius: 50px;
+    }
+
+    #TouristicPlaces .cards-wrapper .card img {
+        width: 100%;
+        height: 100%;
+    }
+
+#TouristicPlaces h1 {
+    color: #ffc107;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+/*#################################-- main ContactUs --#######################################*/
+#ContactUs {
+    background-color: #f7f8fa;
+    padding: 50px;
+}
+
+    #ContactUs h1 {
+        color: #ffc107;
+        letter-spacing: 3px;
+        text-align: center;
+        padding-bottom: 80px;
+    }
+
+    #ContactUs .address {
+        background-color: white;
+        border-radius: 50px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 3%;
+    }
+
+        #ContactUs .address i {
+            font-size: 35px;
+        }
+
+        #ContactUs .address p {
+            font-size: 12px;
+        }
+
+        #ContactUs .address h4 {
+            color: #ffc107;
+        }
+
+        #ContactUs .address a {
+            text-decoration: none;
+            color: black;
+        }
+
+            #ContactUs .address a:hover {
+                color: #ffc107;
+            }
+
+#TalkToOur {
+    background-color: white;
+    padding: 15px;
+    color: #ffc107;
+    border-style: outset;
+    border-width: 1px;
+    border-color: #ffc107;
+    border-radius: 20px;
+}
+
+    #TalkToOur input {
+        border-style: solid;
+        border-width: 1px;
+        border-color: #ffc107;
+        border-radius: 20px;
+    }
+
+    #TalkToOur textarea {
+        border-style: solid;
+        border-width: 1px;
+        border-color: #ffc107;
+        border-radius: 20px;
+    }
+
+@media screen and (min-width : 800px) {
+    #TalkToOur {
+        width: 75%;
+    }
+}
+/*#################################-- footer --#######################################*/
+footer {
+    background-color: rgba(55, 64, 85, 0.9);
+}
+
+    footer h6 {
+        color: #ffc107;
+    }
+
+    footer .logo {
+        color: #ffc107;
+        font-family: 'Lobster', cursive;
+        font-size: 40px;
+    }
+
+    footer a {
+        text-decoration: none;
+        color: white;
+    }
+
+        footer a:hover {
+            color: #ffc107;
+        }
+
+
